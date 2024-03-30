@@ -7,6 +7,7 @@ let allFunc = (function () {
   let loveTextTwo = document.querySelector(".textTwo");
   let heartClick = document.querySelector(".heart");
   let subContainer = document.querySelector(".subContainer");
+  let letterContainer = document.querySelector(".letter");
 
   noBtn.addEventListener("click", increaseDiv);
   noBtn.addEventListener("click", increaseFontSizeBy100px);
@@ -55,5 +56,6 @@ let allFunc = (function () {
 
   function letter() {
     subContainer.style.display = "none";
+    letterContainer.style.display = "block";
   }
 })();
