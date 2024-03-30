@@ -31,7 +31,7 @@ let allFunc = (function () {
   function loveLetter() {
     greeting.style.display = "none";
     love__letter.style.display = "block";
-    typingEffect(loveText, 100, "Happy Birthday");
+    typingEffect(loveText, 100, "Happy Birthday My Love :>");
     setTimeout(() => {
       typingEffect(loveTextTwo, 100, "Click my heart");
     }, 2000);
